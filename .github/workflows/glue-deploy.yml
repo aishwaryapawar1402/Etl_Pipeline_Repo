@@ -5,7 +5,7 @@ on:
     branches:
       - "etl_pipline"
     paths:
-      - "etl_dataclening.py"
+      - "data_cleaning.py"
       - ".github/workflows/glue-deploy.yml"
 
 jobs:
