@@ -25,5 +25,5 @@ jobs:
 
       - name: Upload ETL script to S3
         run: |
-          aws s3 cp etl_dataclening.py \
+          aws s3 cp etl_dataclening.py\
             s3://my-first-data-cleaning-bucket/etl_dataclening.py
